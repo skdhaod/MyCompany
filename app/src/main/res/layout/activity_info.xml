@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_info"
+        android:layout_margin="10dp"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="병원소개"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="440dp"
+        android:layout_below="@id/title_info"
+        android:src="@drawable/info1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/img_info"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_info"
+        android:text="허허헣러러라"
+        android:id="@+id/txt_info"/>
+
+    <Button
+        android:id="@+id/btn_info_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_info"
+        android:layout_alignParentRight="true"
+        android:text="뒤로" />
+
+</RelativeLayout>
